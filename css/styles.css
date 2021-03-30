@@ -1,0 +1,277 @@
+/* Base Styles  / Mobile View */
+
+footer, h4, back {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+body {
+  background-color: #f4f5f7;
+  font-size: 25px;
+  line-height: 1.5;
+  font-family: 'Crimson Text', serif;
+  padding: 1rem 0 1rem 0;
+  margin: 0 auto;
+  width: 95%;
+  color: #4a4a69;
+
+}
+h1 {
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  padding: 20px 5px 20px 15px;
+  display: block;
+}
+.main-nav {
+  text-align: center;
+  /*display: inline-block;*/
+  /*width: 30;*/
+  padding: 10px;
+  /*margin-top: 10px;*/
+  text-transform: uppercase;
+  color: #4a4a69;
+  font-weight: bold;
+  list-style-type: none;
+}
+.bio {
+  text-align: center;
+  line-height: 1.5;
+  padding: 10px;
+  border: 5px;
+  margin: 5px;
+  max-width: 100%;
+
+}
+/*
+.photo {
+  width: 100%;
+  margin: 0 auto;
+}
+*/
+img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+nav li {
+  padding: 12px 0px;
+  margin: 6px;
+  background: #ffff;
+  text-align: center;
+  border-style: solid white;
+}
+  footer li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 0;
+    list-style-type: none;
+    text-transform: uppercase;
+    display: none;
+}
+#back {
+  flex-basis: 45%;
+  align-self: flex-end;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-bottom: 25px;
+  margin-right: 5px;
+}  /*padding:1px;
+  border: 1px;
+  margin: 20px 5px 10px 5px;*/
+
+
+
+/*===========main section==========*/
+/*==========main section==========*/
+  h2 {
+    text-align: center;
+    text-transform: capitalize;
+  }
+  h3 {
+    text-align: center;
+    padding: 0rem;
+
+  }
+  h4 {
+    font-size: 16px;
+    padding-top: 5px 0;
+    text-align: left;
+  }
+
+  .contact li {
+    display:block;
+    list-style-type: none;
+  }
+nav {
+    text-align: right;
+    text-transform: uppercase;
+
+  }
+  hr {
+    width: 80%;
+  }
+  footer {
+    padding: 1rem;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .chat {
+    color: red;
+  }
+  main {
+    background-color: white;
+  }
+
+  /*footer li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 0;
+    list-style-type: none;
+    text-transform: uppercase;
+  }*/
+
+/* media queries/ tablet veiw */
+
+@media (min-width: 768px) {
+
+  body {
+
+    background-color: #f4f5f7;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+  h2 {
+    text-transform: uppercase;
+    padding-top: 40px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+
+  nav ul {
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+  nav li {
+      background-color: transparent;
+  }
+  .photo {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: row-reverse;
+    margin-right: 5px;
+}
+
+.bio {
+  display: flex;
+  flex-basis: 100%;
+  flex-grow: 2;
+  padding: 30px 2px 30px 30px;
+
+}
+
+#portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#portfolio div {
+  flex-basis: 48%;
+  padding-right: 10px;
+  }
+  contact {
+    background-color: #fafafa;
+  }
+
+.contact p {
+  padding: 0 70px 0 70px;
+}
+
+.contact li {
+  text-align: center;
+
+}
+#skills p {
+  padding: 0 70px 0 70px;
+}
+#back {
+  display: none;
+}
+
+footer li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 0;
+  list-style-type: none;
+  text-transform: uppercase;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+}
+
+/*desktop view */
+
+
+@media (min-width: 1024px) {
+
+  header, li {
+    display: flex;
+    justify-content: flex-end;
+  }
+  h1 {
+    display: flex;
+    justify-content: left;
+    flex-basis: 70%;
+  }
+  nav li {
+
+    flex-basis: 30%;
+
+  }
+  #portfolio div {
+    flex-basis: 25%;
+    padding: 10px;
+  }
+
+  }
+    /*
+    justify-content: left;
+    padding: 20px;
+    border-right: 20px;
+    margin-right: auto;
+    flex-basis: auto;
+
+  }
+  */
+  /*nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+
+}*/
+
+
+    /*display: inline-flex;
+    flex-basis: 50%;
+    margin-left: .65em;
+    margin-right: .65em;
+    padding: 1px 0px;
+    margin-top: 0 auto;
+    background: #ffff;
+    text-align: left;
+    border-radius: 70%; */
