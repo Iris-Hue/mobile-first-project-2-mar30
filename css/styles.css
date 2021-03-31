@@ -61,7 +61,7 @@ nav li {
   margin: 6px;
   background: #ffff;
   text-align: center;
-  border-style: solid white;
+  border-style: hidden;
 }
   footer li {
     display: inline-block;
@@ -97,7 +97,7 @@ nav li {
   }
   h4 {
     font-size: 16px;
-    padding-top: 5px 0;
+    padding-top: 5px;
     text-align: left;
   }
 
